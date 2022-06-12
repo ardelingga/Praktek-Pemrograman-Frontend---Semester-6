@@ -1,0 +1,98 @@
+/* Small Screen */
+.container {
+    margin: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form__left {
+    margin-bottom: 1rem;
+}
+
+.form__title {
+    color: #4361ee;
+    margin-bottom: 1rem;
+    font-size: 2.44rem;
+}
+
+.form__genre {
+    color: #b5179e;
+    margin-bottom: 1rem;
+    font-size: 1.59rem;
+}
+
+.form__input {
+    height: 35px;
+    width: 70%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #4361EE;
+    padding-left: 10px;
+}
+
+.form__button {
+    padding: 0.8rem 2rem;
+    border: none;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #4361ee;
+    color: #fff;
+}
+
+.form__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.form__right {
+    padding: 2rem;
+}
+
+.form__right .form__container{
+    width: 100%;
+    height: 380px;
+    border-radius: 20px;
+    background-color: #F72585;
+}
+
+.form__container h1 {
+    color: green;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+    /*
+     * Nothing TODO Here.
+     * We dont change style Hero. 
+     */
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+    .container {
+        max-width: 1200px;
+        margin: 3rem auto;
+    }
+
+    .form {
+        margin: 0 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .form__left {
+        flex-basis: 40%;
+    }
+
+    .form__right {
+        flex-basis: 60%;
+    }
+}
